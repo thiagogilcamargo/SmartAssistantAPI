@@ -1,0 +1,7 @@
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.csproj.AssemblyReference.cache
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.AssemblyInfoInputs.cache
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.AssemblyInfo.cs
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.csproj.CoreCompileInputs.cache
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\PersonalAssistAPI\obj\Debug\net8.0\PersonalAssistAPI.MvcApplicationPartsAssemblyInfo.cache
