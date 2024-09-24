@@ -15,17 +15,36 @@
 - **Factory Pattern**: Para a criação de serviços.
 
 ## Endpoints
-- **Empresas**: CRUD para empresas.
-- **Feedback**: CRUD para feedbacks.
-- **Serviços**: CRUD para serviços.
-- **Suporte**: CRUD para suporte.
+### Empresas
+- **GET /api/empresas**: Obtém a lista de todas as empresas.
+- **GET /api/empresas/{id}**: Obtém uma empresa específica por ID.
+- **POST /api/empresas**: Cria uma nova empresa.
+- **PUT /api/empresas/{id}**: Atualiza uma empresa existente.
+- **DELETE /api/empresas/{id}**: Remove uma empresa.
 
-## Instruções para Rodar a API
-1. Clone o repositório.
-2. Instale as dependências.
-3. Configure o banco de dados.
-4. Execute as migrações.
-5. Execute a aplicação.
+### Feedback
+- **GET /api/feedbacks**: Obtém a lista de todos os feedbacks.
+- **GET /api/feedbacks/{id}**: Obtém um feedback específico por ID.
+- **POST /api/feedbacks**: Cria um novo feedback.
+- **PUT /api/feedbacks/{id}**: Atualiza um feedback existente.
+- **DELETE /api/feedbacks/{id}**: Remove um feedback.
+
+### Serviços
+- **GET /api/servicos**: Obtém a lista de todos os serviços.
+- **GET /api/servicos/{id}**: Obtém um serviço específico por ID.
+- **POST /api/servicos**: Cria um novo serviço.
+- **PUT /api/servicos/{id}**: Atualiza um serviço existente.
+- **DELETE /api/servicos/{id}**: Remove um serviço.
+
+### Suporte
+- **GET /api/suportes**: Obtém a lista de todos os suportes.
+- **GET /api/suportes/{id}**: Obtém um suporte específico por ID.
+- **POST /api/suportes**: Cria um novo suporte.
+- **PUT /api/suportes/{id}**: Atualiza um suporte existente.
+- **DELETE /api/suportes/{id}**: Remove um suporte.
+
+## Integração com Serviço Externo
+- Implementamos autenticação com JWT através do [serviço escolhido].
 
 ## Testes Implementados
 - Testes unitários com xUnit.
@@ -37,8 +56,14 @@
 - Seguindo princípios SOLID, cada classe tem responsabilidades únicas e interfaces segregadas.
 
 ## Funcionalidades de IA Generativa
-- Implementamos recomendações de serviços usando ML.NET.
+- Implementamos um modelo de recomendação de serviços usando ML.NET.
 - Análise de sentimento foi implementada para avaliar feedbacks.
 
 ## Como Executar
-- Acesse a API em `https://localhost:7130`.
+1. Clone o repositório.
+2. Instale as dependências.
+3. Configure o banco de dados.
+4. Execute as migrações.
+5. Execute a aplicação.
+
+Acesse a API em `https://localhost:7130`.
