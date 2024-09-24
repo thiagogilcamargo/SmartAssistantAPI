@@ -5,7 +5,11 @@
 - Kaique Agostinho de Oliveira (RM550815)
 - Leonardo Matheus Mariano (RM99824)
 - Thiago Gil Camargo (RM551211)
+## Estrutura do Repositório
 
+A estrutura do repositório é organizada da seguinte forma:
+
+PersonalAssistAPI/ │ ├── src/ │ ├── PersonalAssistAPI/ │ │ ├── Controllers/ # Controladores da API para gerenciar requisições │ │ │ ├── EmpresasController.cs │ │ │ ├── FeedbacksController.cs │ │ │ ├── ServicosController.cs │ │ │ └── SuportesController.cs │ │ ├── Models/ # Modelos de dados utilizados pela API │ │ │ ├── Empresa.cs │ │ │ ├── Feedback.cs │ │ │ ├── Servico.cs │ │ │ └── Suporte.cs │ │ ├── Services/ # Lógica de negócio da aplicação │ │ │ ├── FeedbackService.cs │ │ │ ├── EmpresaService.cs │ │ │ └── ServicoService.cs │ │ ├── Repositories/ # Implementações do padrão Repository para acesso a dados │ │ │ ├── IFeedbackRepository.cs │ │ │ ├── IEmpresaRepository.cs │ │ │ └── IServicoRepository.cs │ │ ├── Data/ # Migrações e contexto do banco de dados │ │ │ ├── ApplicationDbContext.cs │ │ │ └── Migrations/ │ │ ├── Middleware/ # Classes de middleware personalizadas │ │ ├── Configurations/ # Classes de configuração │ │ ├── ML/ # Implementações de Machine Learning │ │ │ ├── RecommendationModel.cs │ │ │ └── SentimentAnalysisModel.cs │ │ ├── Startup.cs # Configurações da aplicação │ │ └── Program.cs # Ponto de entrada da aplicação │ │ │ ├── PersonalAssistAPI.Tests/ # Contém os testes da API │ │ ├── UnitTests/ # Testes unitários │ │ ├── IntegrationTests/ # Testes de integração │ │ └── SystemTests/ # Testes end-to-end │ │ ├── docs/ # Documentação adicional do projeto │ ├── API_Documentation.md │ ├── Design_Patterns.md │ └── ML_Model_Implementation.md │ ├── data/ # Conjuntos de dados utilizados │ ├── feedbacks.csv │ ├── services.csv │ └── companies.csv │ ├── .gitignore # Arquivo que especifica arquivos a serem ignorados pelo Git ├── README.md # Documentação do projeto ├── LICENSE # Licença do projeto └── appsettings.json
 ## Arquitetura
 - A API é monolítica, facilitando a integração inicial.
 
